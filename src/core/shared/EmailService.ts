@@ -1,5 +1,5 @@
-import { Email } from '../model/Email';
-import { User } from '../model/User';
+import { Email } from '../entities/Email';
+import { User } from '../entities/User';
 
 export interface EmailService {
   sendToAll(receptors: User[], email: Email);
