@@ -1,5 +1,5 @@
 import { Controller, Post, Body, Param, Delete } from '@nestjs/common';
-import { NewsletterService } from '../../core/usecases/newsletter.service';
+import { NewsletterService } from '../../core/usecases/newsletter/newsletter.service';
 import { CreateNewsletterDto } from '../../core/shared/dtos/create-newsletter.dto';
 
 @Controller('newsletter')
