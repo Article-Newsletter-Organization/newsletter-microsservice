@@ -1,6 +1,6 @@
 import { Inject, Injectable } from '@nestjs/common';
-import { CreateNewsletterDto } from '../shared/dtos/create-newsletter.dto';
-import { NewsletterRepository } from '../shared';
+import { CreateNewsletterDto } from '../../shared/dtos/create-newsletter.dto';
+import { NewsletterRepository } from '../../shared';
 
 @Injectable()
 export class NewsletterService {

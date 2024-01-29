@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { NewsletterController } from './newsletter.controller';
-import { NewsletterService } from '../../core/usecases/newsletter.service';
+import { NewsletterService } from '../../core/usecases/newsletter/newsletter.service';
 
 describe('NewsletterController', () => {
   let controller: NewsletterController;
