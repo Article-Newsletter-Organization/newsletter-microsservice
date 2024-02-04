@@ -25,7 +25,7 @@ export class EmailService {
       // @TODO maybe should use .env property here maybe
       const email = new Email()
         .setTo(user.getEmail())
-        .setFrom('emailtest@email.com')
+        .setFrom(process.env.MAILER_USERNAME)
         .setSubject('email teste')
         .setMessage('teste')
         .setProps({
